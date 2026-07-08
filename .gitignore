@@ -5,6 +5,8 @@ __pycache__/
 build.py
 build.sh
 preview.py
+win_build.py
+package.sh
 requirements.txt
 dist/
 *.tar.gz

@@ -1,0 +1,46 @@
+; Dota 2 - The Summit 3
+; Right-click this file and choose Install, then pick "Dota 2 - The Summit 3"
+; in Settings -> Bluetooth & devices -> Mouse -> Additional mouse settings -> Pointers.
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg, Scheme.Apply
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\arrow.ani,%10%\%CUR_DIR%\help.ani,%10%\%CUR_DIR%\arrow.ani,%10%\%CUR_DIR%\arrow.ani,%10%\%CUR_DIR%\precision.ani,%10%\%CUR_DIR%\arrow.ani,%10%\%CUR_DIR%\drag.ani,%10%\%CUR_DIR%\unavailable.ani,%10%\%CUR_DIR%\move.ani,%10%\%CUR_DIR%\move.ani,%10%\%CUR_DIR%\move.ani,%10%\%CUR_DIR%\move.ani,%10%\%CUR_DIR%\move.ani,%10%\%CUR_DIR%\arrow.ani,%10%\%CUR_DIR%\link.ani"
+
+[Scheme.Apply]
+HKCU,"Control Panel\Cursors",Arrow,,"%10%\%CUR_DIR%\arrow.ani"
+HKCU,"Control Panel\Cursors",Help,,"%10%\%CUR_DIR%\help.ani"
+HKCU,"Control Panel\Cursors",AppStarting,,"%10%\%CUR_DIR%\arrow.ani"
+HKCU,"Control Panel\Cursors",Wait,,"%10%\%CUR_DIR%\arrow.ani"
+HKCU,"Control Panel\Cursors",Crosshair,,"%10%\%CUR_DIR%\precision.ani"
+HKCU,"Control Panel\Cursors",IBeam,,"%10%\%CUR_DIR%\arrow.ani"
+HKCU,"Control Panel\Cursors",NWPen,,"%10%\%CUR_DIR%\drag.ani"
+HKCU,"Control Panel\Cursors",No,,"%10%\%CUR_DIR%\unavailable.ani"
+HKCU,"Control Panel\Cursors",SizeNS,,"%10%\%CUR_DIR%\move.ani"
+HKCU,"Control Panel\Cursors",SizeWE,,"%10%\%CUR_DIR%\move.ani"
+HKCU,"Control Panel\Cursors",SizeNWSE,,"%10%\%CUR_DIR%\move.ani"
+HKCU,"Control Panel\Cursors",SizeNESW,,"%10%\%CUR_DIR%\move.ani"
+HKCU,"Control Panel\Cursors",SizeAll,,"%10%\%CUR_DIR%\move.ani"
+HKCU,"Control Panel\Cursors",UpArrow,,"%10%\%CUR_DIR%\arrow.ani"
+HKCU,"Control Panel\Cursors",Hand,,"%10%\%CUR_DIR%\link.ani"
+HKCU,"Control Panel\Cursors",,,"%SCHEME_NAME%"
+
+[Scheme.Cur]
+"arrow.ani"
+"drag.ani"
+"help.ani"
+"link.ani"
+"move.ani"
+"precision.ani"
+"unavailable.ani"
+
+[Strings]
+CUR_DIR     = "Cursors\Dota 2 - The Summit 3"
+SCHEME_NAME = "Dota 2 - The Summit 3"

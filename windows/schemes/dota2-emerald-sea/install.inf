@@ -1,0 +1,46 @@
+; Dota 2 - Emerald Sea
+; Right-click this file and choose Install, then pick "Dota 2 - Emerald Sea"
+; in Settings -> Bluetooth & devices -> Mouse -> Additional mouse settings -> Pointers.
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg, Scheme.Apply
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\help.cur,%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\precision.cur,%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\drag.cur,%10%\%CUR_DIR%\unavailable.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\link.cur"
+
+[Scheme.Apply]
+HKCU,"Control Panel\Cursors",Arrow,,"%10%\%CUR_DIR%\arrow.cur"
+HKCU,"Control Panel\Cursors",Help,,"%10%\%CUR_DIR%\help.cur"
+HKCU,"Control Panel\Cursors",AppStarting,,"%10%\%CUR_DIR%\arrow.cur"
+HKCU,"Control Panel\Cursors",Wait,,"%10%\%CUR_DIR%\arrow.cur"
+HKCU,"Control Panel\Cursors",Crosshair,,"%10%\%CUR_DIR%\precision.cur"
+HKCU,"Control Panel\Cursors",IBeam,,"%10%\%CUR_DIR%\arrow.cur"
+HKCU,"Control Panel\Cursors",NWPen,,"%10%\%CUR_DIR%\drag.cur"
+HKCU,"Control Panel\Cursors",No,,"%10%\%CUR_DIR%\unavailable.cur"
+HKCU,"Control Panel\Cursors",SizeNS,,"%10%\%CUR_DIR%\move.cur"
+HKCU,"Control Panel\Cursors",SizeWE,,"%10%\%CUR_DIR%\move.cur"
+HKCU,"Control Panel\Cursors",SizeNWSE,,"%10%\%CUR_DIR%\move.cur"
+HKCU,"Control Panel\Cursors",SizeNESW,,"%10%\%CUR_DIR%\move.cur"
+HKCU,"Control Panel\Cursors",SizeAll,,"%10%\%CUR_DIR%\move.cur"
+HKCU,"Control Panel\Cursors",UpArrow,,"%10%\%CUR_DIR%\arrow.cur"
+HKCU,"Control Panel\Cursors",Hand,,"%10%\%CUR_DIR%\link.cur"
+HKCU,"Control Panel\Cursors",,,"%SCHEME_NAME%"
+
+[Scheme.Cur]
+"arrow.cur"
+"drag.cur"
+"help.cur"
+"link.cur"
+"move.cur"
+"precision.cur"
+"unavailable.cur"
+
+[Strings]
+CUR_DIR     = "Cursors\Dota 2 - Emerald Sea"
+SCHEME_NAME = "Dota 2 - Emerald Sea"
