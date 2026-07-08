@@ -19,7 +19,7 @@ git clone https://github.com/0443n/dota2-cursors-linux
 cd dota2-cursors-linux
 
 ./install.sh --list                      # see all packs
-./install.sh dota2-pw-mirana --apply     # install and set active
+./install.sh dota2-acid-hydra --apply    # install and set active
 ```
 
 `--apply` also switches your active cursor, detecting GNOME, KDE, XFCE, and
@@ -31,36 +31,45 @@ On Wayland you usually have to log out and back in before every app switches ove
 
 ## Packs
 
+Names are the real store names, taken from Dota's item files. The hero each
+pack was made for is in parentheses.
+
 | Preview | Pack | `install.sh` name |
 |---------|------|-------------------|
+| ![](previews/dota2-acid-hydra.png) | Acid Hydra (Venomancer) | `dota2-acid-hydra` |
+| ![](previews/dota2-wrath-of-ka.png) | Wrath of Ka (Necrophos) | `dota2-wrath-of-ka` |
+| ![](previews/dota2-dac-2015-mirana.png) | DAC 2015 Mirana | `dota2-dac-2015-mirana` |
+| ![](previews/dota2-dac-2015-crystal-maiden.png) | DAC 2015 Crystal Maiden | `dota2-dac-2015-crystal-maiden` |
+| ![](previews/dota2-dac-2015-chaos-knight.png) | DAC 2015 Chaos Knight | `dota2-dac-2015-chaos-knight` |
+| ![](previews/dota2-steam-chopper.png) | Steam Chopper (Timbersaw) | `dota2-steam-chopper` |
+| ![](previews/dota2-unbroken-stallion.png) | Unbroken Stallion (Centaur) | `dota2-unbroken-stallion` |
+| ![](previews/dota2-warcog.png) | Warcog (Clockwerk) | `dota2-warcog` |
+| ![](previews/dota2-tine-of-the-behemoth.png) | Tine of the Behemoth (Earthshaker) | `dota2-tine-of-the-behemoth` |
+| ![](previews/dota2-emerald-sea.png) | Emerald Sea | `dota2-emerald-sea` |
+| ![](previews/dota2-guardian-of-the-holy-flame.png) | Guardian of the Holy Flame (Sven) | `dota2-guardian-of-the-holy-flame` |
+| ![](previews/dota2-the-summit-3.png) | The Summit 3 | `dota2-the-summit-3` |
 | ![](previews/dota2-default.png) | Default | `dota2-default` |
-| ![](previews/dota2-pw-mirana.png) | Mirana | `dota2-pw-mirana` |
-| ![](previews/dota2-pw-crystal-maiden.png) | Crystal Maiden | `dota2-pw-crystal-maiden` |
-| ![](previews/dota2-pw-chaos.png) | Chaos Knight | `dota2-pw-chaos` |
-| ![](previews/dota2-dcveno.png) | Venomancer | `dota2-dcveno` |
-| ![](previews/dota2-dctimber-fancy.png) | Timbersaw | `dota2-dctimber-fancy` |
-| ![](previews/dota2-berserker-centaur.png) | Centaur Warrunner | `dota2-berserker-centaur` |
-| ![](previews/dota2-war-machine-clockwork.png) | Clockwerk | `dota2-war-machine-clockwork` |
-| ![](previews/dota2-sltv-shaker.png) | Earthshaker | `dota2-sltv-shaker` |
-| ![](previews/dota2-necronub.png) | Necro | `dota2-necronub` |
-| ![](previews/dota2-emerald-ocean.png) | Emerald Ocean | `dota2-emerald-ocean` |
-| ![](previews/dota2-guardian-of-the-holy-flame.png) | Guardian of the Holy Flame | `dota2-guardian-of-the-holy-flame` |
-| ![](previews/dota2-bts3.png) | BTS | `dota2-bts3` |
 
 Each row shows, left to right: arrow, link, crosshair, move, drag, not-allowed, help.
 
 ## Notes
 
-The cursors are static. Dota's cursor files are single frames; the glow and
-motion you see in-game are added by the engine while you play, not stored in the
-art. These are the same images, standing still.
+The cursors scale. Each one ships several sizes (24 up to 192 px), so the
+cursor-size slider in your desktop settings works. The art starts from Dota's
+32px originals, so the largest sizes are upscaled and look a little soft up
+close.
 
-They're 32x32, the size Dota ships them at. That looks fine on a normal display.
-On a high-DPI screen they come out small unless your desktop scales cursors up
-for you.
+They're static. Dota's cursor files are single frames; the glow and motion you
+see in-game are added by the engine while you play, not stored in the art. These
+are the same images, standing still.
 
 Dota has no text caret, busy spinner, or resize handles, so those three reuse
 the arrow and move cursors instead of borrowing from another theme.
+
+Inside each `cursors/` folder the real files use the current freedesktop names
+(`default`, `pointer`, `crosshair`, and so on). Everything else is a symlink:
+old X11 names like `left_ptr`, plus the hex-named files (`03b6e0fc...`) that some
+web browsers ask for by hash instead of by name.
 
 ## About the artwork
 
