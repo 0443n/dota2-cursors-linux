@@ -1,8 +1,8 @@
 # Dota 2 cursors
 
 Dota 2's in-game cursor packs, converted into ready-to-install cursors for
-**Linux** and **Windows**. You don't need to own or subscribe to anything in
-Dota to use them.
+**Linux** and **Windows**. They're plain desktop cursor themes, so Dota doesn't
+have to be installed for them to work.
 
 Every pack fills the whole set of desktop cursors, not just the arrow: link,
 text, crosshair, drag, resize, and not-allowed. Apply one and it shows up across
