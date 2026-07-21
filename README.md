@@ -59,7 +59,7 @@ was made for is in parentheses.
 | ![](previews/dota2-diretide-2020.png) | Diretide 2020 | `dota2-diretide-2020` |
 | ![](previews/dota2-default.png) | Default | `dota2-default` |
 
-Each row shows, left to right: arrow, link, crosshair, move, drag, not-allowed, help.
+Each row shows, left to right: arrow, link, text, crosshair, move, drag, not-allowed, help.
 
 </details>
 
@@ -83,10 +83,12 @@ large sizes are upscaled and look a little soft up close.
 They're static. Dota's cursor files are single frames; the glow and motion you
 see in-game come from the engine while you play, not the art itself.
 
-Dota has no text caret, busy spinner, or resize handles, so those reuse the
-arrow and move cursors.
+The caret is drawn. Dota has no text cursor, so the I-beam is original work,
+drawn to match each pack and tinted from its own arrow. The busy and resize
+cursors still have no Dota art, so those reuse the arrow and move.
 
 ## Artwork
 
-Fan project, not affiliated with Valve. The cursors are Valve's artwork, taken
-from Dota 2 for personal desktop use. See [DISCLAIMER.md](DISCLAIMER.md).
+Fan project, not affiliated with Valve. Nearly all the cursors are Valve's
+artwork, taken from Dota 2 for personal desktop use; the text caret is the one
+original addition. See [DISCLAIMER.md](DISCLAIMER.md).
