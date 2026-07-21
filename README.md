@@ -18,6 +18,15 @@ the desktop rather than in a few apps.
 - **Windows** (cursor scheme): see [windows/](windows/) - right-click a pack's
   `install.inf` and choose Install
 
+On Linux you can skip cloning and pull a pack straight from the latest release:
+
+```bash
+mkdir -p ~/.local/share/icons && curl -fsSL https://github.com/0443n/dota2-cursors/releases/latest/download/dota2-default.tar.gz | tar xz -C ~/.local/share/icons
+```
+
+Swap `dota2-default` for any pack folder name, then pick it in your cursor
+settings.
+
 Both live in this repo under [`linux/themes/`](linux/themes) and
 [`windows/schemes/`](windows/schemes). Prefer a download over cloning? Grab a
 per-pack archive from the
