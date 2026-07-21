@@ -12,7 +12,7 @@ AddReg    = Scheme.Reg, Scheme.Apply
 Scheme.Cur = 10,"%CUR_DIR%"
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\help.cur,%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\precision.cur,%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\drag.cur,%10%\%CUR_DIR%\unavailable.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\link.cur"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\help.cur,%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\precision.cur,%10%\%CUR_DIR%\text.cur,%10%\%CUR_DIR%\drag.cur,%10%\%CUR_DIR%\unavailable.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\link.cur"
 
 [Scheme.Apply]
 HKCU,"Control Panel\Cursors",Arrow,,"%10%\%CUR_DIR%\arrow.cur"
@@ -20,7 +20,7 @@ HKCU,"Control Panel\Cursors",Help,,"%10%\%CUR_DIR%\help.cur"
 HKCU,"Control Panel\Cursors",AppStarting,,"%10%\%CUR_DIR%\arrow.cur"
 HKCU,"Control Panel\Cursors",Wait,,"%10%\%CUR_DIR%\arrow.cur"
 HKCU,"Control Panel\Cursors",Crosshair,,"%10%\%CUR_DIR%\precision.cur"
-HKCU,"Control Panel\Cursors",IBeam,,"%10%\%CUR_DIR%\arrow.cur"
+HKCU,"Control Panel\Cursors",IBeam,,"%10%\%CUR_DIR%\text.cur"
 HKCU,"Control Panel\Cursors",NWPen,,"%10%\%CUR_DIR%\drag.cur"
 HKCU,"Control Panel\Cursors",No,,"%10%\%CUR_DIR%\unavailable.cur"
 HKCU,"Control Panel\Cursors",SizeNS,,"%10%\%CUR_DIR%\move.cur"
@@ -39,6 +39,7 @@ HKCU,"Control Panel\Cursors",,,"%SCHEME_NAME%"
 "link.cur"
 "move.cur"
 "precision.cur"
+"text.cur"
 "unavailable.cur"
 
 [Strings]
