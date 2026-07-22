@@ -85,9 +85,10 @@ ships one drop-in archive per pack per platform:
 
 ## Notes
 
-The cursors scale. Each ships several sizes (Linux packs carry 24 up to 192 px)
-so the cursor-size slider works. The art starts from Dota's 32px originals, so
-large sizes are upscaled and look a little soft up close.
+The cursors scale. Each ships several sizes (Linux packs carry 12 up to 192 px)
+so the cursor-size slider works, down to the tiny sizes some setups use. The art
+starts from Dota's 32px originals, so large sizes are upscaled and look a little
+soft up close, while the small ones stay crisp.
 
 They're static. Dota's cursor files are single frames; the glow and motion you
 see in-game come from the engine while you play, not the art itself.
